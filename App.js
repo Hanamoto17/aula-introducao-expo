@@ -5,14 +5,15 @@ import  constants from 'expo-constants';
 
 import Exemplo01 from './src/exemplo/ex01';
 import Exemplo02 from './src/exemplo/ex02';
+import Exemplo03 from './src/exemplo/ex03';
 
 import Atividade01 from './src/atividade/atv01';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Exemplo02/>
-      <StatusBar style="light" />
+      <Exemplo03/>
+      <StatusBar style="auto" />
     </View>
   );
 }
@@ -23,6 +24,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#0ff',
     // alignItems: 'center',
     // justifyContent: 'center',
-     padding: 10,
+     padding: 15,
+     paddingTop: constants.statusBarHeight,
     },
 });

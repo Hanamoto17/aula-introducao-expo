@@ -1,13 +1,13 @@
-import { view, text } from 'react-native';
+import { View, Text } from 'react-native';
 
-import styles from '.styles';
+import styles from './styles';
 
 function Mensagem ({titulo, children}) {
     return(
-        <view style={styles.container}>
-            <text style={styles.titulo}>{titulo}</text>
-            <text style={styles.texto}>{children}</text>
-        </view>
+        <View style={styles.container}>
+            <Text style={styles.titulo}>{titulo}</Text>
+            <Text style={styles.texto}>{children}</Text>
+        </View>
     );
 }
 
