@@ -35,13 +35,6 @@ export default function Exemplo03() {
         onPress={() => handleIncrementar()}
          >   
             <Text  style={styles.txtBotao}> Como conservar PS2 </Text>
-        </TouchableOpacity>
-
-        
-        
-        
-        
-        
-        </View>
+        </TouchableOpacity> </View>
     );
 }
