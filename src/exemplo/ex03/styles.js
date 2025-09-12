@@ -1,38 +1,32 @@
-import { setStatusBarNetworkActivityIndicatorVisible } from "expo-status-bar";
-import { StyleSheet } from "react-native";
-import { RFPercentage, RFValue } from "react-native-responsive-fontsize";
+import { StyleSheet } from 'react-native';
 
-const styles = StyleSheet.create(
-    {
-        container: {
-            backgroundColor: '#ff0',
-             flex: 1,
-             alignItems: 'center',
-             justifyContent: 'center',
-        },
-           titulo:{
-            fontSize: RFPercentage(5),
-            fontWeight: 'Verdana',
-            color:'#777',
-        },
-           txt: {
-            fontSize: RFPercentage(2.5),
-        },
-           botao:{
-            backgroundColor: '#777',
-            width: '60%',
-            borderRadius: RFPercentage(1),
-            padding:RFPercentage(1),
-            alignItems:'center',
-        },
-           txtBotao:{
-           color: '#ff0',
-           fontSize:RFPercentage(2),
-
-             
-        },
-    }
-
-);
-
-export default styles; 
+export default StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#777',
+  },
+  titulo: {
+    fontSize: 32,
+    fontWeight: 'bold',
+    marginBottom: 10,
+  },
+  numero: {
+    fontSize: 40,
+    fontWeight: 'bold',
+    marginBottom: 20,
+  },
+  botao: {
+    backgroundColor: 'green',
+    paddingVertical: 10,
+    paddingHorizontal: 20,
+    borderRadius: 10,
+    alignItems: 'center',
+  },
+  textoBotao: {
+    color: 'yellow',
+    fontSize: 20,
+    fontWeight: 'bold',
+  },
+});
