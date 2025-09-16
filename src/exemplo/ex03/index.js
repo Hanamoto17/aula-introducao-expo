@@ -35,7 +35,7 @@ export default function Exemplo03() {
 
       {/* Botão de reset */}
       <TouchableOpacity style={[styles.botao, { backgroundColor: 'red', marginTop: 10 }]} onPress={handleResetar}>
-        <Text style={styles.textoBotao}>Como conservar seu PS2</Text>
+        <Text style={styles.textoBotao}>Como conservar seu PS2 ZERADO!</Text>
       </TouchableOpacity>
     </View>
   );
